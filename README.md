@@ -15,6 +15,7 @@ scikit-learn                0.20.3
 seaborn                     0.9.0
 jupyter                     1.0.0
 cobra                       0.15.3  
+Gurobi                      8.0.0
 ```
 The repository was tested with Python 3.6.7.
 
