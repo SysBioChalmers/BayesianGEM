@@ -1,22 +1,11 @@
 # etcpy
-#### Important: this is now only for ecYeast7 only since the protein usage, NGAMT are different in other models. Will be adapted in the future if necessary.
+#### Important: this is now only for ecYeast7 since the protein usage, NGAMT are different in other models. Will be adapted in the future if necessary.
 This script provides several functions to map temperature effects on enzymes in
 an enzyme constrained model. In the model, three temperature effects are considered:
 * protein denaturation, which is described with a two-state denaturation model  
 * enzyme kcat, which is described with a macromolecular theory macromolecular rate theory (MMRT): Hobbs J. et al., ACS Chem Biol. 2013  
 * temperature dependent non-growth associated ATP maintenance (NGAM), which is from the experimentally measured NGAM at different temperatures under anaerobic conditions. The same dependence was assumed for aerobic growth  
 
-## Installation
-##### (1). Download tome package
-##### (2). Open your terminal
-##### (3). Change directory to the package directory
-```linux
-cd [directory to etcpy, where setup.py is]
-```
-##### (4). Run following command
-```linux
-pip install -e .
-```
 
 ## Usage:  
 The input files:
