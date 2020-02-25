@@ -1,5 +1,5 @@
 # etcpy
-#### Important: this is now only for ecYeast7 only since the protein usage, NGAMT are different in other models. Will be adapted in the future if necessary.
+#### Important: this is now only for ecYeast7 since the protein usage, NGAMT are different in other models. Will be adapted in the future if necessary.
 This script provides several functions to map temperature effects on enzymes in
 an enzyme constrained model. In the model, three temperature effects are considered:
 * protein denaturation, which is described with a two-state denaturation model  
