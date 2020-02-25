@@ -67,7 +67,7 @@ df.head(n=10)
 
 
 ## apply boxcox transformation on r2
-df['r2'] = boxcox(df['r2']+4)[0]
+# df['r2'] = boxcox(df['r2']+4)[0]
 
 
 # import matplotlib.pyplot as plt
@@ -114,7 +114,7 @@ print('test:',       X_test.shape, y_test.shape)
 # In[ ]:
 
 
-report=open('../results/machine_learning_report_boxcox_auto.txt','a+',buffering=1)
+report=open('../results/machine_learning_report.txt','a+',buffering=1)
 
 
 # val_scores = list()
@@ -196,7 +196,7 @@ report.write('test score:' + str(model.score(X_test,y_test)))
 
 
 # feature importance
-fhand = open('../results/machine_learning_feature_importance_boxcox_auto.csv','w')
+fhand = open('../results/machine_learning_feature_importance.csv','w')
 fhand.write('feature,importance,std\n')
 
 std = np.std([tree.feature_importances_ for tree in model.estimators_],axis=0)
