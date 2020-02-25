@@ -21,3 +21,18 @@ The repository was tested with Python 3.6.7.
 
 #### Hardware
 Since Bayesian approach is computational expsensive, all scripts except ones for visualizaiton have to be done with a computer cluster. Those scripts have been designed for parallel computation. 
+
+#### Reproduce the figures
+The pre-computed results are available on Zenodo (https://zenodo.org/deposit/3686996). Download the `results.tar.gz` file to the current directory and uncompress with 
+```
+tar -xzvf results.tar.gz
+```
+Then the figures in the manuscript can be reproduced by using jupyter notebooks
+```
+visualization.ipynb                               
+visualize_chemostat_metabolic_shift.ipynb         
+visualize_cv.ipynb                                
+visualize_temperature_on_enzymes_posterior.ipynb 
+```
+
+One can also recompute those results by following the introductions in `code/README.md` and the visualized by the above scripts.
