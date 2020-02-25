@@ -6,7 +6,6 @@ This repository contains code and data needed to replicate the analysis carried 
 * `data/` contains all input data needed, including experimental and estimated thermal parameters
 * `models/` contains a list of yeast genome scale models with different settings used in this study.
 
-All the results can be downloaded from *ZENODO*
 
 #### Dependences
 ```
