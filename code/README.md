@@ -11,11 +11,11 @@ This folder contains the scripts that carry out all analysis reported in the pap
 
 #### SMC-ABC approach updates model parameters
 Three experimental datasets under different temperatures are used in this section:
-- `ExpGrowth.tsv` - the maximal specific growth rate in aerobic batch cultivations (Caspeta L., et al. Mbio, 2015)
-
-- `?` - anaerobic  batch cultivations (Zakhartsev M., et al. J. Therm. Biol., 2015)
+- `ExpGrowth.tsv` - the maximal specific growth rate in aerobic (Caspeta L., et al. Mbio, 2015) and anaerobic (Zakhartsev M., et al. J. Therm. Biol., 2015) batch cultivations
 
 - `Chemostat_exp_data.txt` - fluxes of carbon dioxide (CO2), ethanol and glucose in chemostat cultivations (Postmus J., J. Biol. Chem., 2008)  
+
+- `model_enzyme_params.csv` - 
 
 Cross-validation scripts:
 * `gem_smcabc_at_three_conditions_cv1.py`
