@@ -1,4 +1,5 @@
-## Bayesian genome scale modeling reveals thermal determinants of yeast metabolism
+## GETCool: Using Bayesian statistical learning to integrate temperature dependence in enzyme-constrained GEMs
+<img src="figures/logo.png" width="1000">
 
 #### Description of folders
 * `code/` contains all scripts and detailed descrition can be found in `code/README.md`
