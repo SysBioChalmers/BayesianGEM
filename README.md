@@ -1,5 +1,5 @@
 ## Bayesian genome scale modeling reveals thermal determinants of yeast metabolism
-![](figures/logo.png)
+![](figures/logo.png =250x)
 
 #### Description of folders
 * `code/` contains all scripts and detailed descrition can be found in `code/README.md`
