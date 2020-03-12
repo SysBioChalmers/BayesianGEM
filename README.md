@@ -1,6 +1,6 @@
 ## GETCool: Using Bayesian statistical learning to integrate temperature dependence in enzyme-constrained GEMs
 <p align="center">
-  <img width="600"  src="figures/logo.png">
+  <img  src="figures/logo.png">
 </p>
 
 #### Description of folders
