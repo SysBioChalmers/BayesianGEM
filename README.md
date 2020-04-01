@@ -25,7 +25,7 @@ The repository was tested with Python 3.6.7.
 Since Bayesian approach is computational expsensive, all scripts except ones for visualizaiton have to be done with a computer cluster. Those scripts have been designed for parallel computation. 
 
 #### Reproduce the figures
-The pre-computed results are available on Zenodo (https://zenodo.org/deposit/3686996). Download the `results.tar.gz` file to the current directory and uncompress with 
+The pre-computed results are available on Zenodo (https://zenodo.org/record/3686996#.XoRMCtP7RhE). Download the `results.tar.gz` file to the current directory and uncompress with 
 ```
 tar -xzvf results.tar.gz
 ```
