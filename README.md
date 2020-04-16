@@ -25,7 +25,9 @@ The repository was tested with Python 3.6.7.
 Since Bayesian approach is computational expsensive, all scripts except ones for visualizaiton have to be done with a computer cluster. Those scripts have been designed for parallel computation. The SMC-ABC approach takes around 3-5 days on a compute node with 32 cores (Intel Xeon Gold 6130 CPU). All visualization scripts take sveral seconds or minutes on a normal PC.
 
 #### Reproduce the figures
-The pre-computed results are available on Zenodo (https://zenodo.org/record/3686996#.XoRMCtP7RhE). Download the `results.tar.gz` file to the current directory and uncompress with 
+(1) Clone this repository.
+(2) Install all required packages.
+(2) Download the pre-computed results from Zenodo (https://zenodo.org/record/3686996#.XoRMCtP7RhE). Download the `results.tar.gz` file to the current directory and uncompress with 
 ```
 tar -xzvf results.tar.gz
 ```
