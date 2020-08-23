@@ -1,5 +1,7 @@
 ## GETCool: Using Bayesian statistical learning to integrate temperature dependence in enzyme-constrained GEMs
-<img src="figures/logo.png" width="500" align="center">
+<p align="center">
+  <img  src="figures/logo.png">
+</p>
 
 #### Description of folders
 * `code/` contains all scripts and detailed descrition can be found in `code/README.md`
@@ -20,10 +22,12 @@ Gurobi                      8.0.0
 The repository was tested with Python 3.6.7.
 
 #### Hardware
-Since Bayesian approach is computational expsensive, all scripts except ones for visualizaiton have to be done with a computer cluster. Those scripts have been designed for parallel computation. 
+Since Bayesian approach is computational expsensive, all scripts except ones for visualizaiton have to be done with a computer cluster. Those scripts have been designed for parallel computation. The SMC-ABC approach takes around 3-5 days on a compute node with 32 cores (Intel Xeon Gold 6130 CPU). All visualization scripts take sveral seconds or minutes on a normal PC.
 
 #### Reproduce the figures
-The pre-computed results are available on Zenodo (https://zenodo.org/deposit/3686996). Download the `results.tar.gz` file to the current directory and uncompress with 
+(1) Clone this repository.  
+(2) Install all required packages. This step takes at most several minutes.  
+(2) Download the pre-computed results from Zenodo (https://zenodo.org/record/3686996#.XoRMCtP7RhE). Download the `results.tar.gz` file to the current directory and uncompress with 
 ```
 tar -xzvf results.tar.gz
 ```
