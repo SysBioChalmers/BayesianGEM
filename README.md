@@ -27,7 +27,7 @@ Since Bayesian approach is computational expsensive, all scripts except ones for
 #### Reproduce the figures
 (1) Clone this repository.  
 (2) Install all required packages. This step takes at most several minutes.  
-(2) Download the pre-computed results from Zenodo (https://zenodo.org/record/3686996#.XoRMCtP7RhE). Download the `results.tar.gz` file to the current directory and uncompress with 
+(2) Download the pre-computed results from Zenodo (https://zenodo.org/record/3996543#.X0J1BNP7S3I). Download the `results.tar.gz` file to the current directory and uncompress with 
 ```
 tar -xzvf results.tar.gz
 ```
