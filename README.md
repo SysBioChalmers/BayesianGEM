@@ -32,11 +32,19 @@ Since Bayesian approach is computational expsensive, all scripts except ones for
 tar -xzvf results.tar.gz
 ```
 Then the figures in the manuscript can be reproduced by using jupyter notebooks
+* `visualization.ipynb` : **Figs 2abcdefi, 3ab; 5abde; S5, S6, S7, S10, S11a**
+* `additional_plots.ipynb`: - additional plots (**Figs 2gh, S13**)
+* `visualize_cv.ipynb`: **Fig S3, S4**
+* `visualize_temperature_on_enzymes_posterior.ipynb`: **Fig 3cdef**
+* `visualize_chemostat_metabolic_shift.ipynb`: **Fig 4abc, S9**
+* `expdata.ipynb`: **Fig 5c, S11b**
+* `single_enzyme.ipynb`: **Fig S8**
+
+  
+Results for experimental validation of ERG1 is available as csv files:
 ```
-visualization.ipynb                               
-visualize_chemostat_metabolic_shift.ipynb         
-visualize_cv.ipynb                                
-visualize_temperature_on_enzymes_posterior.ipynb 
+data/OD600_different_passages_40C.csv       
+data/OD600_different_passages_42C.csv 
 ```
 
 One can also recompute those results by following the introductions in `code/README.md` and the visualized by the above scripts.

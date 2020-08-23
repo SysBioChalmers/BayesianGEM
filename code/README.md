@@ -21,39 +21,38 @@ Cross-validation scripts:
 * `gem_smcabc_at_three_conditions_cv1.py`
 * `gem_smcabc_at_three_conditions_cv2.py`
 * `gem_smcabc_at_three_conditions_cv3.py`
-The results can be visualized with `visualize_cv.ipynb`. (**Fig S3**)  
+The results can be visualized with `visualize_cv.ipynb`. (**Figs S3, S4**)  
 * `gem_smcabc_at_three_conditions.py` - SMC-ABC approach update parameter space with all three observed datasets.
 
 Above scripts need be run on high-performance cluster, and may take a few days.
 
-* `visualization.ipynb` - the analysis of resulted Posterior models were analyzed with  (**Fig 2bcdef, 3bc; Fig S4, S5, S6**)
+* `visualization.ipynb` - the analysis of resulted Posterior models were analyzed with (**Figs 2abcdefi, 3abc; S5, S6, S7, S8**)
 
 #### Machine learning applied to identify the most important thermal parameters
 * `machine_learning_on_particles.py`
-The results can be visualized with `visualize_cv.ipynb`. (**Fig 2g**)
+
 
 #### Study the effect of different processes individually on yeast cell growth rate
 * `split_factors_population.py`
-The results can be visualized with `visualize_cv.ipynb`. (**Fig 3a**)
 
-#### Visualize the effect of temperature on individual enzymes in Posterior models.
-* `single_enzyme.ipynb`
-The script is for reproducing results in (**Fig S7**)
-
-* `visualize_temperature_on_enzymes_posterior.ipynb`
-The script is for reproducing results in (**Fig 3def**)
 
 #### Simulate the metabolic shift in chemostat cultivation
 * `simulate_chostat_metabolic_shift.py`
-The results can be visualized with `visualize_chemostat_metabolic_shift.ipynb`. (**Fig 4**)
+* `simulate_chemostat_double_protein_limt.ipynb`
+* `simulate_chemostat_stable_mitochodria.ipynb`
 
 #### Identify most rate-limiting enzymes at 42 °C based on flux control coefficients
-* `fcc_population.py` Calculate the FCC for all enzymes at 42 °C, the results are used for (**Fig 5, S8 and S9a**)
-* `resucue_ERG1.py` Simulate the specific growth rate with Posterior models with/without a temperature-insensitive ERG1 (**Fig 5b**)
-* `remove_temperature_constraints_sequentially_based_on_ind_fcc_BS.py` At each step, calculate FCC for all enzymes and identify the one with the highest FCC, remove the temperature constraint for that enzyme. Then repeat until temperature contraint has been removed for all enzymes. (**Fig 5cd**)
+* `fcc_population.py` Calculate the FCC for all enzymes at 42 °C
+* `resucue_ERG1.py` Simulate the specific growth rate with Posterior models with/without a temperature-insensitive ERG1
+* `simulate_down_regulation_of_ERG_genes.ipynb` Simulate the down-regulation of ERG pathway
+* `remove_temperature_constraints_sequentially_based_on_ind_fcc_BS.py` At each step, calculate FCC for all enzymes and identify the one with the highest FCC, remove the temperature constraint for that enzyme. Then repeat until temperature contraint has been removed for all enzymes.
 
-Above results can be visualized with `visualize_cv.ipynb`
 
-#### Experimental validation of ERG1
-* `expdata.ipynb`, for **Fig 5c and S9b** 
-
+#### Visualization
+* `visualization.ipynb` : **Figs 2abcdefi, 3ab; 5abde; S5, S6, S7, S10, S11a**
+* `additional_plots.ipynb`: - additional plots (**Figs 2gh, S13**)
+* `visualize_cv.ipynb`: **Fig S3, S4**
+* `visualize_temperature_on_enzymes_posterior.ipynb`: **Fig 3cdef**
+* `visualize_chemostat_metabolic_shift.ipynb`: **Fig 4abc, S9**
+* `expdata.ipynb`: **Fig 5c, S11b**
+* `single_enzyme.ipynb`: **Fig S8**
