@@ -4,10 +4,10 @@
 </p>
 
 #### Description of folders
-* `code/` contains all scripts and detailed descrition can be found in `code/README.md`
-* `data/` contains all input data needed, including experimental and estimated thermal parameters
+* `code/` contains all scripts and detailed descrition can be found in `code/README.md`.
+* `data/` contains all input data needed, including experimental and estimated thermal parameters.
 * `models/` contains a list of yeast genome scale models with different settings used in this study.
-
+* `validate_smc_abc/` contains the scripts and simulation results for the validation of SMC-ABC apporach on toy models.
 
 #### Dependences
 ```
@@ -39,6 +39,7 @@ Then the figures in the manuscript can be reproduced by using jupyter notebooks
 * `visualize_chemostat_metabolic_shift.ipynb`: **Fig 4abc, S9**
 * `expdata.ipynb`: **Fig 5c, S11b**
 * `single_enzyme.ipynb`: **Fig S8**
+* `Case1.ipynb`~`Case5.ipynb`: **Fig V1, V2, V3, V4, V5**
 
   
 Results for experimental validation of ERG1 is available as csv files:
